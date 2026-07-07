@@ -47,4 +47,4 @@ force-app/
 ```
 
 ## Developed By
-**Supriya Nagarajan**
+**Supriya SN**
