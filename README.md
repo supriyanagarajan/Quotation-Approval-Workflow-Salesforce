@@ -1,18 +1,50 @@
-# Salesforce DX Project: Next Steps
+# Quotation Approval Workflow - Salesforce CRM
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+## Project Overview
+This project was developed during my internship using Salesforce CRM. It automates the quotation approval process using Salesforce automation tools.
 
-## How Do You Plan to Deploy Your Changes?
+## Features
+- Create customer quotations
+- Approval Status (Draft, Pending, Approved, Rejected)
+- Automatic Approval Date update
+- Email notifications based on approval status
+- Custom Home Dashboard using Lightning Web Component (LWC)
+- Salesforce Flow Automation
+- Apex Trigger for approval processing
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+## Technologies Used
+- Salesforce CRM
+- Apex
+- Lightning Web Components (LWC)
+- Salesforce Flow
+- Lightning App Builder
+- VS Code
+- Salesforce CLI
+- Git & GitHub
 
-## Configure Your Salesforce DX Project
+## Objects Used
+- Accounts
+- Contacts
+- Products
+- Quotations
+- Enquiries
+- Quotation Line Items
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+## Automation
+- Record Triggered Flow
+- Apex Trigger
+- Email Notifications
+- Approval Tracking
 
-## Read All About It
+## Project Structure
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+```
+force-app/
+ ├── lwc/
+ ├── objects/
+ ├── triggers/
+ ├── flows/
+```
+
+## Developed By
+**Supriya Nagarajan**
