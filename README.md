@@ -45,6 +45,12 @@ force-app/
  ├── triggers/
  ├── flows/
 ```
+## About
+
+This project was developed as part of my ELGi Digital Innovation Dojo Internship, where I gained hands-on experience in Salesforce development.
+
+📜 The internship completion certificate can be viewed on my LinkedIn profile.
+```
 
 ## Developed By
 **Supriya SN**
