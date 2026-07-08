@@ -1,9 +1,17 @@
 # Quotation Approval Workflow - Salesforce CRM
 
 ## Project Overview
-This project was developed during my internship using Salesforce CRM. It automates the quotation approval process using Salesforce automation tools.
+
+This project automates the quotation approval process using Salesforce CRM and was developed as part of my internship, utilizing Salesforce automation tools and Apex.
+
+## About
+
+This project was developed during my **ELGi Digital Innovation Dojo Internship**, where I gained hands-on experience in Salesforce development, including Apex, Lightning Web Components (LWC), Salesforce Flow, and automation.
+
+📜 The ELGi Digital Innovation Dojo Internship completion certificate is available on my LinkedIn profile.
 
 ## Features
+
 - Create customer quotations
 - Approval Status (Draft, Pending, Approved, Rejected)
 - Automatic Approval Date update
@@ -13,6 +21,7 @@ This project was developed during my internship using Salesforce CRM. It automat
 - Apex Trigger for approval processing
 
 ## Technologies Used
+
 - Salesforce CRM
 - Apex
 - Lightning Web Components (LWC)
@@ -23,6 +32,7 @@ This project was developed during my internship using Salesforce CRM. It automat
 - Git & GitHub
 
 ## Objects Used
+
 - Accounts
 - Contacts
 - Products
@@ -31,6 +41,7 @@ This project was developed during my internship using Salesforce CRM. It automat
 - Quotation Line Items
 
 ## Automation
+
 - Record Triggered Flow
 - Apex Trigger
 - Email Notifications
@@ -38,19 +49,14 @@ This project was developed during my internship using Salesforce CRM. It automat
 
 ## Project Structure
 
-```
+```text
 force-app/
  ├── lwc/
  ├── objects/
  ├── triggers/
  ├── flows/
 ```
-## About
-
-This project was developed as part of my ELGi Digital Innovation Dojo Internship, where I gained hands-on experience in Salesforce development.
-
-📜 The internship completion certificate can be viewed on my LinkedIn profile.
-```
 
 ## Developed By
+
 **Supriya SN**
